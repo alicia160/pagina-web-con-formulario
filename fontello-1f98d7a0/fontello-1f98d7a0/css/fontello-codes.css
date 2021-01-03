@@ -1,0 +1,9 @@
+
+.icon-home:before { content: '\e800'; } /* '' */
+.icon-zoom:before { content: '\e801'; } /* '' */
+.icon-list:before { content: '\e802'; } /* '' */
+.icon-like:before { content: '\e803'; } /* '' */
+.icon-login:before { content: '\e804'; } /* '' */
+.icon-copy:before { content: '\f1f9'; } /* '' */
+.icon-whatsapp:before { content: '\f232'; } /* '' */
+.icon-facebook:before { content: '\f30e'; } /* '' */

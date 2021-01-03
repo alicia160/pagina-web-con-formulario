@@ -1,0 +1,153 @@
+*body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+}
+
+.contenedor{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+}
+
+ul, li{
+    margin:0;
+    padding: 0;
+    list-style:none ;
+}
+
+ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
+
+
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    transition: opacity .5s;
+}
+ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+ul.slider li:first-child{
+    opacity: 1;
+}
+
+ul.slider li:target{
+    opacity: 1;
+}
+
+
+.menu{
+    text-align: center;
+    margin: 20px;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration:none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+
+/* targetas */
+
+.targetas{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color:#00b4d8 ;
+    color: white;
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+}
+
+.seccion-card{
+    display: grid;
+    gap: 1.75rem;
+    grid-template-columns:repeat(auto-fill, mimax(200px, 1fr));
+}
+
+.card{
+background-color:#90e0ef;
+padding: 1.75rem;
+border-radius: 1.75rem;
+display: flex;
+flex-wrap: wrap;
+}
+
+.card .carta-header{
+flex-basis: 100%;
+font-size: 1.5rem;
+text-transform: uppercase;
+}
+
+.card .carta-cuerpo{
+flex-basis: 100%;
+margin-top:1.2rem ;
+}
+.card .carta-cuerpo p{
+    margin: 0;
+}
+
+.card:hover{
+    background-color: #0096c7;
+    border-color:#0096c7;
+}
+.card .carta-pie{
+flex-basis: 100%;
+align-self: flex-end;
+text-align: end;
+font-size: 0.8rem;
+
+}
+
+/* footer */
+
+footer{
+    background: #0096c7;
+    
+}
+
+#footer a{
+    
+    width: 100px ;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px ;
+    margin-top: 10px;
+    border: 3px solid #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .card .carta-cuerpo a{
+text-decoration: none;
+color: white;
+display: inline-block;
+padding: 0.7rem 0.75rem;
+background-color: #023e8a;
+} */

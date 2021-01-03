@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "3a00327e61b997b58518bd43ed83c3df",
+      "css": "login",
+      "code": 59396,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ef74ff62feda486fd414410e782b598a",
+      "css": "mision",
+      "code": 59393,
+      "src": "entypo"
+    },
+    {
+      "uid": "440e5cbb0f604b4be0c0183e63a0cde3",
+      "css": "vision",
+      "code": 62120,
+      "src": "fontawesome"
+    }
+  ]
+}

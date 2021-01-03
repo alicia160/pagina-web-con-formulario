@@ -1,0 +1,40 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "ef74ff62feda486fd414410e782b598a",
+      "css": "mision",
+      "code": 59393,
+      "src": "entypo"
+    },
+    {
+      "uid": "40177cc6c35597ea3422673689409152",
+      "css": "solidarida",
+      "code": 62105,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "b9cd6e266f74ac97272b2fabbfbd0b85",
+      "css": "respeto",
+      "code": 59392,
+      "src": "typicons"
+    },
+    {
+      "uid": "d7059fc5329e1a7fcab80ba87831c957",
+      "css": "estudio",
+      "code": 59394,
+      "src": "iconic"
+    },
+    {
+      "uid": "lnyme20kl7kh26it9yrqk7at10k6i0sf",
+      "css": "excelencia",
+      "code": 59395,
+      "src": "modernpics"
+    }
+  ]
+}
